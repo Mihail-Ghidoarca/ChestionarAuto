@@ -111,5 +111,145 @@
     "raspuns": 0,
     "explicatie": "Prioritatea o are vehiculul care vine din dreapta.",
     "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică o trecere pentru pietoni?",
+    "optiuni": ["Triunghi roșu cu siluetă de pieton", "Pătrat albastru cu siluetă de pieton", "Cerc roșu cu linie neagră"],
+    "raspuns": 1,
+    "explicatie": "Indicatorul pătrat albastru cu siluetă de pieton semnalizează o trecere pentru pietoni.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Când este permisă folosirea luminilor de ceață?",
+    "optiuni": ["Numai pe timp de zi", "Când vizibilitatea scade sub 100 m", "În orice moment"],
+    "raspuns": 1,
+    "explicatie": "Luminile de ceață se folosesc când vizibilitatea este redusă semnificativ.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn avertizează asupra unei curbe periculoase la stânga?",
+    "optiuni": ["Triunghi cu vârf în jos", "Triunghi cu o săgeată spre stânga", "Pătrat albastru cu săgeată"],
+    "raspuns": 1,
+    "explicatie": "Triunghiul cu margine roșie și săgeată spre stânga avertizează asupra unei curbe periculoase.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Este permisă întoarcerea într-o intersecție cu semn STOP?",
+    "optiuni": ["Da", "Nu", "Doar dacă nu circulă alte vehicule"],
+    "raspuns": 1,
+    "explicatie": "Întoarcerea este interzisă în intersecțiile semnalizate cu STOP din cauza riscurilor.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Cum recunoști un indicator de restricție de viteză?",
+    "optiuni": ["Cerc roșu cu cifră", "Triunghi cu cifră", "Pătrat albastru cu cifră"],
+    "raspuns": 0,
+    "explicatie": "Restricțiile de viteză sunt indicate de cercuri roșii cu cifră în interior.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Cum procedezi când un vehicul de poliție are semnalele luminoase pornite?",
+    "optiuni": ["Oprești imediat", "Continui normal", "Acorzi prioritate și eliberezi banda"],
+    "raspuns": 2,
+    "explicatie": "Este obligatoriu să acorzi prioritate și să eliberezi drumul pentru vehiculele speciale.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn interzice accesul tuturor vehiculelor?",
+    "optiuni": ["Cerc roșu gol", "Cerc roșu cu linie albă orizontală", "Triunghi cu semn de exclamare"],
+    "raspuns": 0,
+    "explicatie": "Un cerc roșu fără simbol interior semnifică interzicerea accesului tuturor vehiculelor.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce trebuie să faci când vezi un semn STOP?",
+    "optiuni": ["Reduci viteza", "Oprești complet", "Semnalizezi și treci fără oprire"],
+    "raspuns": 1,
+    "explicatie": "La semnul STOP este obligatorie oprirea completă.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn anunță apropierea unei treceri la nivel cu calea ferată cu bariere?",
+    "optiuni": ["Triunghi cu locomotivă", "Semn cu barieră pe fundal alb", "Cerc roșu cu tren"],
+    "raspuns": 0,
+    "explicatie": "Triunghiul cu simbol de locomotivă avertizează asupra căii ferate.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce trebuie să faci într-o zonă școlară semnalizată?",
+    "optiuni": ["Accelerezi pentru a trece rapid", "Reduci viteza și fii atent", "Claxonezi pentru a avertiza pietonii"],
+    "raspuns": 1,
+    "explicatie": "Zonele școlare necesită atenție și reducerea vitezei.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn anunță un drum cu prioritate?",
+    "optiuni": ["Semn galben cu chenar alb", "Semn albastru cu săgeți", "Semn roșu cu X alb"],
+    "raspuns": 0,
+    "explicatie": "Semnul galben cu chenar alb indică începutul unui drum cu prioritate.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "În ce situații este permisă staționarea pe trotuar?",
+    "optiuni": ["Niciodată", "Dacă este permisă prin semn", "Doar noaptea"],
+    "raspuns": 1,
+    "explicatie": "Staționarea pe trotuar este permisă doar dacă este semnalizată corespunzător.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică o zonă cu acces interzis într-un singur sens?",
+    "optiuni": ["Semn STOP", "Semn cu linie albă orizontală", "Semn cu săgeată spre stânga"],
+    "raspuns": 1,
+    "explicatie": "Semnul cu linie albă orizontală pe fundal roșu indică acces interzis.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce document trebuie prezentat în cazul unui control al poliției?",
+    "optiuni": ["Certificatul fiscal", "Permisul de conducere", "Actul de identitate al pasagerului"],
+    "raspuns": 1,
+    "explicatie": "Permisul de conducere este obligatoriu la control.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn avertizează apropierea unei pante descendente periculoase?",
+    "optiuni": ["Triunghi cu camion și pantă", "Cerc cu linie albă", "Triunghi cu semn STOP"],
+    "raspuns": 0,
+    "explicatie": "Triunghiul cu camion pe pantă semnalizează coborârea periculoasă.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Care este limita maximă de alcool permisă la volan?",
+    "optiuni": ["0.8‰", "0.5‰", "0.0‰ pentru șoferii începători"],
+    "raspuns": 2,
+    "explicatie": "Pentru începători limita este zero.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Cum recunoști un indicator de sens unic?",
+    "optiuni": ["Săgeată albă pe fundal albastru", "Semn STOP", "Cerc roșu cu X negru"],
+    "raspuns": 0,
+    "explicatie": "Săgeata pe fundal albastru indică direcția unică de deplasare.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce faci dacă semaforul și agentul de circulație indică lucruri diferite?",
+    "optiuni": ["Respecți semaforul", "Respecți agentul de circulație", "Te oprești indiferent de semnal"],
+    "raspuns": 1,
+    "explicatie": "Indicațiile agentului au prioritate față de semafor.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică o intersecție cu drum fără prioritate din stânga?",
+    "optiuni": ["Semn galben în formă de T", "Semn galben în formă de cruce cu linie subțire în stânga", "Semn roșu cu triunghi în jos"],
+    "raspuns": 1,
+    "explicatie": "Semnul arată forma intersecției și indică direcția fără prioritate.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Care este sancțiunea pentru nefolosirea centurii de siguranță?",
+    "optiuni": ["Avertisment", "Amendă și puncte de penalizare", "Nicio sancțiune dacă ești pe locul din spate"],
+    "raspuns": 1,
+    "explicatie": "Lipsa centurii atrage amendă și puncte.",
+    "sectiune": "Reguli Generale"
   }
 ]

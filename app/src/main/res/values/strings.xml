@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chestionar Auto</string>
+    <string name="main_title">Bine ai venit la Chestionarul Auto</string>
+    <string name="button_chestionare">Chestionare pe secțiuni</string>
+    <string name="button_simulare">Simulare Examen Final</string>
+    <string name="button_legislatie">Legislație</string>
+
+    <string name="sectiunea_1">Reguli generale</string>
+    <string name="sectiunea_2">Semne de circulație</string>
+    <string name="sectiunea_3">Prioritate</string>
+    <string name="sectiunea_4">Conducere preventivă</string>
+    <string name="sectiunea_5">Alte situații</string>
+
+    <string name="rezultat_punctaj">Punctaj: %1$d / %2$d</string>
+    <string name="raspuns_corect">Răspuns corect</string>
+    <string name="timp_ramasa">Timp rămas: %1$d secunde</string>
+
+    <string name="eroare_incarcare_intrebari">Eroare la încărcarea întrebărilor</string>
+    <string name="start_simulare">Începe simularea</string>
+    <string name="vizualizare_raspunsuri">Vezi răspunsurile corecte</string>
+</resources>

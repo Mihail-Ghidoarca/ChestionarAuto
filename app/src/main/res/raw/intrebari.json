@@ -1,0 +1,115 @@
+[
+  {
+    "intrebare": "Care este limita legală de viteză în localitate?",
+    "optiuni": ["30 km/h", "50 km/h", "70 km/h"],
+    "raspuns": 1,
+    "explicatie": "Limita legală este 50 km/h.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică prioritate de dreapta?",
+    "optiuni": ["Semnul STOP", "Semnul Cedează trecerea", "Absența indicatoarelor"],
+    "raspuns": 2,
+    "explicatie": "Prioritatea de dreapta este indicată prin lipsa indicatoarelor.",
+    "sectiune": "Semne de circulație"
+  },
+
+  {
+    "intrebare": "Ce trebuie să faci la semnalul pietonilor?",
+    "optiuni": ["Să oprești și să acorzi prioritate", "Să continui fără să oprești", "Să încetinești și să treci cu atenție"],
+    "raspuns": 0,
+    "explicatie": "Pietonii au prioritate și trebuie să oprești.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce culoare are semnalul de interzicere?",
+    "optiuni": ["Verde", "Roșu", "Galben"],
+    "raspuns": 1,
+    "explicatie": "Roșul indică interzicerea.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce distanță minimă trebuie să păstrezi față de vehiculul din față?",
+    "optiuni": ["Cel puțin 1 metru", "Cel puțin 2 secunde", "Cel puțin 10 metri"],
+    "raspuns": 1,
+    "explicatie": "Distanța de siguranță este măsurată în secunde, nu metri.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică intersecția cu prioritate?",
+    "optiuni": ["Semnul de prioritate", "Semnul de cedează trecerea", "Semnul STOP"],
+    "raspuns": 0,
+    "explicatie": "Semnul de prioritate indică prioritate la intersecție.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce înseamnă semnalul verde intermitent la semafor?",
+    "optiuni": ["Permite trecerea", "Atenție, schimbare de culoare", "Oprește-te"],
+    "raspuns": 1,
+    "explicatie": "Semnalul verde intermitent atenționează pentru schimbarea culoarii.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Cum trebuie să te comporți la trecerea la nivel cu calea ferată fără bariere?",
+    "optiuni": ["Oprești, asculți și privești înainte de a trece", "Treci rapid fără să oprești", "Claxonezi și treci"],
+    "raspuns": 0,
+    "explicatie": "Trebuie să oprești și să te asiguri că nu vine trenul.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică zona rezidențială?",
+    "optiuni": ["Semnul cu o casă și copii", "Semnul cu mașină și roată", "Semnul de interzicere"],
+    "raspuns": 0,
+    "explicatie": "Zona rezidențială este indicată prin semnul cu casă și copii.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Când este permisă depășirea pe dreapta?",
+    "optiuni": ["Pe autostradă doar când traficul e blocat", "Oriunde", "Niciodată"],
+    "raspuns": 0,
+    "explicatie": "Depășirea pe dreapta e permisă în anumite condiții pe autostradă.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică interzicerea opririi și staționării?",
+    "optiuni": ["Semnul cu cerc roșu și linie diagonală", "Semnul cu cerc albastru și X roșu", "Semnul STOP"],
+    "raspuns": 1,
+    "explicatie": "Semnul cu cerc albastru și X roșu interzice oprirea și staționarea.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Cum trebuie să folosești luminile de întâlnire noaptea?",
+    "optiuni": ["Doar în localitate", "Oriunde, dacă nu deranjezi alți participanți", "Numai în afara localității"],
+    "raspuns": 1,
+    "explicatie": "Luminile de întâlnire trebuie folosite oriunde noaptea, pentru vizibilitate.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce indicație dă semnul cu triunghi roșu și margine albă?",
+    "optiuni": ["Prioritate", "Pericol", "Oprire obligatorie"],
+    "raspuns": 1,
+    "explicatie": "Semnul triunghi indică pericol.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Ce trebuie să faci la culoarea galbenă a semaforului?",
+    "optiuni": ["Să oprești dacă poți face asta în siguranță", "Să accelerezi pentru a trece", "Să ignori semaforul"],
+    "raspuns": 0,
+    "explicatie": "La galben trebuie să oprești dacă poți în siguranță.",
+    "sectiune": "Reguli Generale"
+  },
+  {
+    "intrebare": "Ce semn indică accesul interzis vehiculelor cu masa peste o anumită valoare?",
+    "optiuni": ["Semnul cu camion și cifră", "Semnul cu cerc roșu", "Semnul STOP"],
+    "raspuns": 0,
+    "explicatie": "Semnul cu camion și cifră interzice accesul vehiculelor grele.",
+    "sectiune": "Semne de circulație"
+  },
+  {
+    "intrebare": "Care este ordinea corectă de trecere într-o intersecție nedirijată?",
+    "optiuni": ["Vehiculul din dreapta are prioritate", "Vehiculul din stânga are prioritate", "Cel mai rapid trece primul"],
+    "raspuns": 0,
+    "explicatie": "Prioritatea o are vehiculul care vine din dreapta.",
+    "sectiune": "Reguli Generale"
+  }
+]

@@ -1,5 +1,6 @@
 package com.example.chestionarauto;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -25,8 +26,10 @@ public class LegislatieActivity extends AppCompatActivity {
         lista.setAdapter(adapter);
 
         lista.setOnItemClickListener((adapterView, view, i, l) -> {
-            String continut = LegislatieProvider.getLegislatie(this, sectiuni[i]);
-            textLegislatie.setText(continut);
+            Intent intent = new Intent(this, LegislatieDetaliuActivity.class);
+            intent.putExtra("sectiune", sectiuni[i]);
+            startActivity(intent);
         });
+
     }
 }

@@ -7,6 +7,7 @@ import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.chestionarauto.data.IntrebariProvider;
 import com.example.chestionarauto.model.Intrebare;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class SimulareActivity extends AppCompatActivity {
     private int index = 0;
     private int scor = 0;
 
-    private TextView intrebareText, timerText;
+    private TextView intrebareText, timerText, scorText;
     private RadioGroup optiuniGroup;
     private Button urmatoarea;
     private CountDownTimer timer;
@@ -30,14 +31,23 @@ public class SimulareActivity extends AppCompatActivity {
 
         intrebareText = findViewById(R.id.intrebareTextSimulare);
         timerText = findViewById(R.id.timerText);
+        scorText = findViewById(R.id.scorText); // nou
         optiuniGroup = findViewById(R.id.optiuniGroupSimulare);
         urmatoarea = findViewById(R.id.btnUrmatoareaSimulare);
 
         intrebari = IntrebariProvider.incarcaIntrebari(this);
+
+        if (intrebari == null || intrebari.isEmpty()) {
+            Toast.makeText(this, "Nu s-au găsit întrebări pentru simulare.", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+
         Collections.shuffle(intrebari);
-        intrebari = intrebari.subList(0, Math.min(26, intrebari.size())); // 26 întrebări max
+        intrebari = intrebari.subList(0, Math.min(26, intrebari.size())); // max 26 întrebări
 
         afiseazaIntrebare();
+        actualizeazaScor();
 
         urmatoarea.setOnClickListener(v -> {
             int checkedId = optiuniGroup.getCheckedRadioButtonId();
@@ -47,6 +57,7 @@ public class SimulareActivity extends AppCompatActivity {
                     scor++;
                 }
                 index++;
+                actualizeazaScor();
                 if (index < intrebari.size()) {
                     afiseazaIntrebare();
                 } else {
@@ -68,6 +79,7 @@ public class SimulareActivity extends AppCompatActivity {
     }
 
     private void afiseazaIntrebare() {
+        if (index >= intrebari.size()) return;
         Intrebare i = intrebari.get(index);
         intrebareText.setText(i.getIntrebare());
         optiuniGroup.removeAllViews();
@@ -77,6 +89,11 @@ public class SimulareActivity extends AppCompatActivity {
             rb.setText(opt);
             optiuniGroup.addView(rb);
         }
+    }
+
+    private void actualizeazaScor() {
+        int gresite = index - scor;
+        scorText.setText("Corecte: " + scor + " | Greșite: " + gresite);
     }
 
     private void finalizeazaTest() {

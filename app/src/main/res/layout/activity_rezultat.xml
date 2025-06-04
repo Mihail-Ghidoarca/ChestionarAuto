@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="24dp">
 
     <TextView
-        android:id="@+id/scorText"
-        android:textSize="20sp"
-        android:text="Scor final"
+        android:id="@+id/scorFinal"
+        android:textSize="22sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Scor final"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnInapoiMeniu"
+        android:text="Înapoi la meniu"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

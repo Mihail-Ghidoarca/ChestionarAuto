@@ -8,13 +8,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/timerText"
-            android:text="Timp rămas: 15:00"
-            android:textStyle="bold"
-            android:textSize="16sp"
+        <!-- Timer + Scor pe același rând -->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/timerText"
+                android:text="Timp rămas: 15:00"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/scorText"
+                android:text="Corecte: 0 | Greșite: 0"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/intrebareTextSimulare"
@@ -29,11 +47,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"/>
 
+        <TextView
+            android:id="@+id/explicatieTextSimulare"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <Button
             android:id="@+id/btnUrmatoareaSimulare"
             android:text="Următoarea întrebare"
             android:layout_marginTop="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
     </LinearLayout>
 </ScrollView>
